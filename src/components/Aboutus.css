@@ -1,0 +1,158 @@
+.main{
+    width: 100vw;
+    height: 100vh;
+}
+.main .flex{
+    display: flex;
+}
+
+.main .left{
+    margin-left: 5%;
+}
+
+.main .left .first{
+    width: 30vw;
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 20px;
+    padding: 10px;
+    height: 65%;
+    padding-bottom: 30px;
+}
+
+.main .left .first .heading{
+   width: 100%;
+}
+
+.main .left .first .heading h3{
+    font-size: 55px;
+    font-weight: 800;
+    color: #7650a2;
+}
+
+.main .heading .underline{
+   border-bottom: 3px solid;
+}
+
+.main .right{
+    width: 60vw;
+}
+
+
+.main .right img{
+   margin-left: 15vw;
+   width: 45vw;
+}
+
+.main .left .body p{
+   font-size: 25px;
+   margin-left: 10px;
+   margin-top: 40px;
+   font-weight: 700;
+}
+
+.main .left .body h6{
+    margin-left: 10px;
+ }
+
+.main .left .second{
+    width: 30vw;
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 20px;
+    padding: 10px;
+    height: 25%;
+}
+
+.main .left .second .heading{
+    width: 100%;
+ }
+ 
+ .main .left .second .heading h3{
+     font-size: 35px;
+     font-weight: 800;
+     color: #7650a2;
+ }
+
+ .main .left .second .body p{
+   font-size: 25px;
+   margin-left: 10px;
+   margin-top: 15px;
+   font-weight: 700;
+   padding-bottom: 0px;
+}
+
+.main .left .second{
+    margin-top: 50px;
+}
+
+@media (max-width:1100px){
+    .main .left .first{
+        width: 30vw;
+        height: 45%;
+    }
+
+    .main .left .first .heading h3{
+        font-size: 45px;
+    }
+    .main .right img{
+        margin-left: 5vw;
+        width: 55vw;
+     }
+}
+
+@media (max-width:900px){
+
+    .main .left .first .heading h3{
+        font-size: 40px;
+    }
+    .main .right img{
+        width: 55vw;
+     }
+}
+@media (max-width:800px){
+
+    .main .flex{
+        display: inline;
+    }
+
+    .main .left .first{
+        width: 90%;
+        min-width: 380px;
+    }
+
+    .main .left .second{
+        width: 90%;
+        min-width: 380px;
+    }
+
+    .main .left .first .heading h3{
+        font-size: 40px;
+    }
+
+    .main .left{
+        width: 80vw;
+    }
+
+    .main .right{
+      width: 80vw;
+      margin-left: 0px;
+    }
+    .main .right img{
+        margin-top: 40px;
+        width: 70%;
+        min-width: 380px;
+        margin-left: 30px;
+     }
+}
+
+@media (max-width:420px){
+    .main .left{
+        margin-left: 10px;
+    }
+
+    .main .right img{
+        min-width: 380px;
+        margin-left: 10px;
+     }
+}

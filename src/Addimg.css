@@ -1,0 +1,32 @@
+
+.formfield input:focus{
+    box-shadow:   0px 0px 10px 2px #6b4c94ae;
+    border:none;
+}
+
+
+.alert-success-custom p{
+    color: #155724;
+    background-color: #d4edda; 
+    border-color: #c3e6cb; 
+    padding: 1rem; 
+    border-radius: 0.25rem; 
+    margin-bottom: 1rem; 
+    animation: fadeOut 0.3s forwards; 
+    animation-delay: 1s; 
+    text-align: center;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        display: none;
+    }
+}

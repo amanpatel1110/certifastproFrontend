@@ -1,0 +1,50 @@
+.verificationBlock{
+    /* border: 1px solid; */
+    /* max-width: 80%; */
+    width: max-content;
+    word-break:normal;
+    min-width: 400px;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.verificationBlock table{
+   width:98%;
+}
+
+.verificationBlock th{
+    min-width: 150px;
+}
+
+/* .verificationBlock .text{
+    word-break: break-all;
+} */
+
+.verificationFailedBlock{
+    width: 300px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+@media screen and (max-width: 600px) {
+    .verificationBlock{
+        max-width: 98%;
+    }
+
+    .verificationBlock table{
+       width: 98%;
+     }
+}
+
+@media screen and (max-width: 500px) {
+
+    .verificationBlock td{
+        word-break:break-all;
+    }
+    
+}

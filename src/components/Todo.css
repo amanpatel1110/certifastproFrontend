@@ -1,0 +1,7 @@
+.delbtn{
+    display: none; 
+}
+
+.tsk :hover  ~ .delbtn { 
+    display: block;
+  } 

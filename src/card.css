@@ -1,0 +1,22 @@
+.card {
+    transition: transform 0.1s ease-in-out, box-shadow 0.3s ease-in; 
+}
+
+.card:hover{
+    transform: scale(1.02);
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: transform 0.1s ease-in, box-shadow 0.1s ease-in; 
+}
+
+.editButton {
+    width: 100px;
+    color: white; 
+    border: none;
+    background-color: #6b4c94;
+}
+
+.editButton:hover {
+    color: white; 
+    background-color: #8a6bb3;
+}
